@@ -1,0 +1,13 @@
+Patch Notes NoLiTiA v.1.2.1
+
+15/10/21
+
+- removed "eval" function calls to improve performance in nta_wind_recfreq.m
+
+- corrected a bug in nta_timerev.m where p-values were no saved if sign. threshold was not reached.
+
+- corrected a bug in nta_timerev.m, where p-values (but not significance flag) were only calculated one-sided 
+
+- adapted nta_nolitia_monte.m to first average over trials and then calculate the statistic 
+
+- conditioned "percentage done xxx %" command line output by verbose parameter in most function calls. 

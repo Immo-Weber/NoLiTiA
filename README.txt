@@ -1,0 +1,2 @@
+To install the NoLiTiA Toolbox copy the complete folder onto your computer and run the install_nolitia.m script.
+If you have a 32-bit Windows you also need to compile neighsearch.c (\related\core\) in Matlab using the mex command.
